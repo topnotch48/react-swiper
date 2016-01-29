@@ -1,0 +1,1 @@
+Simple react component which is just a tiny wrapper around swiper library made by http://www.idangero.us/
