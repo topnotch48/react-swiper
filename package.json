@@ -22,7 +22,7 @@
   "homepage": "https://github.com/nyakovenko/react-swiper#readme",
   "scripts": {
     "dev": "webpack --verbose --colors --inline --display-error-details --display-modules --config webpack.dist.config",
-    "prod": "NODE_ENV=production webpack -p --config webpack.dist.config",
+    "prod": "SET NODE_ENV=production & webpack -p --config webpack.dist.config",
     "demo": "webpack --config demo/webpack.demo.config"
   },
   "dependencies": {

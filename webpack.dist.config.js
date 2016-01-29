@@ -4,13 +4,12 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
 const webpack = require('webpack');
 
 const isProduction = () => {
-    return NODE_ENV == 'production'
+    return NODE_ENV !== 'development';
 };
 
 const config = {
-
     entry: './index.js',
-
+    plugins: [],
     output: {
         path: __dirname + '/dist/',
         filename: isProduction() ? 'react-swiper.min.js' : 'react-swiper.js',
