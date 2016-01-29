@@ -8,7 +8,7 @@ const isProduction = () => {
 };
 
 const config = {
-    entry: './index.js',
+    entry: './src/react-swiper.js',
     plugins: [],
     output: {
         path: __dirname + '/dist/',
