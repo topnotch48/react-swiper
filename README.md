@@ -1,6 +1,6 @@
 # react-swiper
 
-> Simple react component built-in using portal technique,  which is just a tiny wrapper idangero's swiper library ( http://www.idangero.us/ )
+> Simple react component built-in using portal technique,  which is just a tiny wrapper around idangero's swiper library ( http://www.idangero.us/ )
 
 ## Install
 
@@ -9,7 +9,7 @@ $ npm install --save react-swiper
 ```
 
 ## Usage
-Config is just a plain js object, which represents the origin config required by swiper js,
+Config is just a plain js object, which represents the original config required by swiper js,
 for more information and available options, please check http://www.idangero.us/swiper/api/#
 
 ```jsx
@@ -30,7 +30,7 @@ for more information and available options, please check http://www.idangero.us/
 
 ## Callbacks
 
-use onSwiperMount and onSwiperUnmount callbacks to control inner swiper logic.
+use onSwiperMount and onSwiperUnmount callbacks to control inner swiper logic while using component.
 
 ```jsx
 
