@@ -1,4 +1,4 @@
-# react-swiper
+# Swiper-r
 
 > Simple react component built-in using portal technique,  which is just a tiny wrapper around idangero's swiper library ( http://www.idangero.us/ )
 
