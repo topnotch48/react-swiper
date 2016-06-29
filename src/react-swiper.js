@@ -50,7 +50,7 @@ const SwiperComponent = React.createClass({
 
     componentWillUnmount(){
         if(this.swiper){
-            this.swiper.off();
+            this.swiper.destroy();
         }
 
         if(this.props.onSwiperUnmount){
